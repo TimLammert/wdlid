@@ -4,6 +4,6 @@
 
 ## To activate this environment, use
 ##
-# #    $ conda activate mwe
+##    $ conda activate mwe
 
 ## Afterwards, run the test file 
