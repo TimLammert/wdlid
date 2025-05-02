@@ -1,0 +1,27 @@
+---
+name: mwe
+channels: [conda-forge, nodefaults]
+dependencies:
+  - python ==3.12
+  - pip >=21.1
+
+  # Development dependencies
+  - conda-lock
+  - ipykernel
+  - jupyterlab
+
+  # Python template project dependencies
+  - statsmodels
+  - plotly >=5.2.0,<6
+  - matplotlib
+
+  # Packages
+  - numpy
+  - pandas >= 2.2
+  - scikit-learn
+  - plotly
+  - arch-py
+  - openpyxl
+
+  # Install project
+  - pip: [-e ., pdbp, kaleido, arch]
